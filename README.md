@@ -124,4 +124,7 @@ Assuming the deployment and configuration of a primary admin node, three (3) sto
 * During installation (configure.ps1 running) the process can be viewed in a browser by opening https://{GRID_IP_PRIMARY_ADMIN} (no login required during install)
 
 <br/>
+
+![alt text](https://github.com/johncchampion/sg_vsphere/blob/main/images/sg-vmware1.png "Build Script Output")
+
 <br/>
