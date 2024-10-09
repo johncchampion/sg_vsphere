@@ -118,7 +118,9 @@ Assuming the deployment and configuration of a primary admin node, three (3) sto
 5. Wait ~5 minutes after last node is deployed to allow all nodes to complete boot process and start services
 6. If -Configure switch specified, invoke configure.ps1
 <br>
+
 ![alt text](https://github.com/johncchampion/sg_vsphere/blob/main/images/sg-vmware1.png "Build Script Output")
+
 <br>
 ### Comments
 * **Be aware there are MINIMUM requirements for StorageGRID VMware nodes that are 'supported' and these scripts provide the potential to not meet them**. Before using in a production environment be sure the desired configuration and settings are supported by NetApp. 
