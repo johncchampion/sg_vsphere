@@ -1,4 +1,4 @@
-## StorageGRID 11.6 Deployment and Configuration (vSphere / PowerShell 7)
+## StorageGRID 11.8 Deployment and Configuration (vSphere / PowerShell 7)
 
 * [Description](#Description)
 * [Disclaimer](#Disclaimer)
