@@ -122,6 +122,7 @@ Assuming the deployment and configuration of a primary admin node, three (3) sto
 ![alt text](https://github.com/johncchampion/sg_vsphere/blob/main/images/sg-vmware1.png "Build Script Output")
 
 <br>
+
 ### Comments
 * **Be aware there are MINIMUM requirements for StorageGRID VMware nodes that are 'supported' and these scripts provide the potential to not meet them**. Before using in a production environment be sure the desired configuration and settings are supported by NetApp. 
 *  Not meeting minimum CPU, memory, and disk requirements will impact performance.  For lab and POC environments this is usually acceptable but if evaluating performance related metrics be sure meet (or exceed) the minimums.
