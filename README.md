@@ -120,7 +120,6 @@ Assuming the deployment and configuration of a primary admin node, three (3) sto
 <br>
 
 ![alt text](https://github.com/johncchampion/sg_vsphere/blob/main/images/sg-vmware1.png "Build Script Output")
-
 <br>
 
 ### Comments
