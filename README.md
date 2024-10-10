@@ -20,7 +20,7 @@
 * The script and associated components are provided as-is and are intended to provide an example of utilizing PowerShell, PowerCLI, and the Invoke-RestMethod cmdlet. Fully test in a non-production enviornment before implementing. Feel free to utilize/modify any portion of code for your specific needs.
 
 ### Requirements
-* Windows system with connectivity to vCenter management network and GRID network 
+* System with connectivity to vCenter management network and GRID network 
 * StorageGRID 11.8 - VMware
 * vSphere 6.7 or later with ESXi host(s) managed by vCenter
 * PowerShell 7.4 or later
@@ -48,7 +48,7 @@
 ### Provided Scripts
 * deploy.ps1 - requires the VMware PowerCLI modules. It will connect to vCenter, make a copy of the specific nodetype .OVF file located in the extracted StorageGRID download, make modifications based on the nodes .ini settings, and import the .ovf and .vmdk. 
 * configure.ps1 - this script will add GRID details, apply the license, add NTP and DNS server IP addresses, configure the GRID network, register any unregistered nodes, start installation, download a recovery package, and monitor the installation to completion.
-* build.ps1 - a top level script that allows you to deploy and configure everything in one step 
+* build.ps1 - a top level script that allows you to deploy multiple nodes and optionally configure the grid in one step
 
 ### Usage / Examples
 Assuming the deployment and configuration of a primary admin node, three (3) storage nodes, and an API gateway:
@@ -119,11 +119,12 @@ Assuming the deployment and configuration of a primary admin node, three (3) sto
 6. If -Configure switch specified, invoke configure.ps1
 <br>
 
-**<u>Example Build Output</u>**
+### Script Output
+**<u>Build</u>**
 
 ![alt text](https://github.com/johncchampion/sg_vsphere/blob/main/images/sg-vmware1.png "Build Script Output")
 
-**<u>Example Configure Output</u>**
+**<u>Configure</u>**
 
 ![alt text](https://github.com/johncchampion/sg_vsphere/blob/main/images/sg-vmware2.png "Configure Script Output")
 
