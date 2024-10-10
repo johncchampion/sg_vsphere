@@ -8,6 +8,7 @@
 * [Provided Scripts](#Provided-Scripts)
 * [Usage / Examples](#Usage-/-Examples)
 * [Workflow Tasks](#Workflow-Tasks)
+* [Script Output](#Script-Output)
 * [Comments](#Comments)
 
 ### Description
