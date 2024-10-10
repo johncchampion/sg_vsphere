@@ -119,6 +119,8 @@ Assuming the deployment and configuration of a primary admin node, three (3) sto
 6. If -Configure switch specified, invoke configure.ps1
 <br>
 
+**<u>Example Build Output</u>**
+
 ![alt text](https://github.com/johncchampion/sg_vsphere/blob/main/images/sg-vmware1.png "Build Script Output")
 <br>
 
