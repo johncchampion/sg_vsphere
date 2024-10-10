@@ -132,5 +132,5 @@ Assuming the deployment and configuration of a primary admin node, three (3) sto
 *  Not meeting minimum CPU, memory, and disk requirements will impact performance.  For lab and POC environments this is usually acceptable but if evaluating performance related metrics be sure meet (or exceed) the minimums.
 * During installation (configure.ps1 running) the process can be viewed in a browser by opening https://{GRID_IP_PRIMARY_ADMIN} (no login required during install)
 
-<br/>
+<hr/>
 <br/>
