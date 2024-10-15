@@ -12,7 +12,7 @@
 * [Comments](#Comments)
 
 ### Description
-* This is a set of PowerShell scripts to deploy a vSphere implementation of StorageGrid 11.6. A set of .INI files provide the necessary parameters to deploy and configure the virtual machines/nodes. Primarily intended to quickly deploy and configure a virtual StorageGRID environment for POCs and lab enviroments (eval/test) though it could be used for production environments (see [Disclaimer](#Disclaimer) and [Comments](#Comments)). 
+* This is a set of PowerShell scripts to deploy a vSphere implementation of StorageGrid 11.8. A set of .INI files provide the necessary parameters to deploy and configure the virtual machines/nodes. Primarily intended to quickly deploy and configure a virtual StorageGRID environment for POCs and lab enviroments (eval/test) though it could be used for production environments (see [Disclaimer](#Disclaimer) and [Comments](#Comments)). 
 * Ability to change CPU, memory, disk count, and disk size for the virtual nodes which makes it easier to deploy on vSphere systems with minimal resources. A site deployment can be accomplished on a single ESXi host. 
 * Templates with comments are provided in the /templates directory along with examples (/templates/examples).
 * The scripts are idempotent and can be re-executed without any 'known' issues.
